@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>N&M Wedding</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5e275b66f1.css" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
@@ -20,6 +21,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/lab.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/lab.png">
+    
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -42,7 +44,7 @@
   <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
     <div class="container ww-announcement-container">
       <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">Natalie & Mike</p>
-      <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="5">27<sup>th</sup> May, 2023</p>
+      <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="5">27<sup>th</sup> May 2023</p>
     </div>
   </div>
 </div>
@@ -75,7 +77,7 @@
             <li><i class="fas fa-map-marker-alt"></i><span class="pl-2">Sheer Bastion, Senglea, Malta</span></li>
             <li class="pt-2"><i class="far fa-calendar-alt"></i><span class="pl-2">28 Apr 2023</span></li>
           </ul>
-          <p>We are getting married in Malta atop the Sheer Bastion.</p>
+          <p>We are getting married in Malta at the Sheer Bastion.</p>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -87,10 +89,11 @@
         <div class="my-3">
           <div class="h4">Wedding Party</div>
           <ul>
-            <li><i class="fas fa-map-marker-alt "></i><span class="pl-2">The Old Library, Taunton School, TA2 6AD</span></li>
+            <a target="_blank" href="https://www.google.com/maps/place/Taunton+School/@51.0265682,-3.1166874,18z/data=!3m1!5s0x486df4424c995447:0xb9a70a70f3d8e186!4m10!1m2!2m1!1staunton+school!3m6!1s0x486df46bfa09556f:0xbca312b704b8d0ea!8m2!3d51.0263792!4d-3.115337!15sCg50YXVudG9uIHNjaG9vbJIBC2hpZ2hfc2Nob29s4AEA!16s%2Fg%2F12333rkdy"><li><i class="fas fa-map-marker-alt "></i><span class="pl-2">The Old Library, Taunton School, TA2 6AD</span></li></a>
             <li class="pt-2"><i class=" far fa-calendar-alt "></i><span class="pl-2">27 May 2023, 6pm - Midnight</span></li>
+            <li class="pt-2"><img id="DancerIcon" src="images/pngfind.com-dancers-png-2184485.png"><span class="pl-2">Cocktail Attire</span></li>
           </ul>
-          <p> We would love for all our friends and family to join us in celebrating our marriage at Taunton school. Disco and food included.</p>
+          <p> We would love for our friends and family to join us in celebrating our marriage at Taunton school. Please arrive at 6pm. Parking on site is available.</p>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -174,7 +177,7 @@
                 <div class="form-group">
                   <label for="events-input">RSVP</label>
                   <select class="form-control" id="events-input" name="attending" required="required">
-                    <option value="Yes">We will be there!</option>
+                    <option value="Yes">I will be there!</option>
                     <option value="No">Decline with regrets</option>
                   </select>
                 </div>
@@ -193,11 +196,19 @@
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
-                  <label for="name-input2">Your Name*</label>
+                  <label for="name-input2">First Name*</label>
                   <input class="form-control" id="name-input2" type="text" name="name2" required="required"/>
                 </div>
               </div>    
             </div>
+            <div class="row">
+            <div class="col-md-6 pb-3">
+              <div class="form-group">
+                <label for="last-2">Last Name*</label>
+                <input class="form-control" id="last-name2" type="text" name="last-name2"/>
+              </div>
+            </div>
+          </div>
             <div class="row">
               <div class="col md-6 pb-3">
                 <div class="form-group">
@@ -212,7 +223,7 @@
                 <div class="form-group">
                   <label for="events-input2">RSVP</label>
                   <select class="form-control" id="events-input2" name="attending2">
-                    <option value="Yes">We will be there!</option>
+                    <option value="Yes">I will be there!</option>
                     <option value="No">Decline with regrets</option>
                     <option value="NA">N/A</option>
                   </select>
