@@ -186,3 +186,23 @@ body {
   max-height: 20px;
   margin-left: -5px;
 }
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
