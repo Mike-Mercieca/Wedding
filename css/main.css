@@ -187,22 +187,22 @@ body {
   margin-left: -5px;
 }
 
-a:link {
+#tschoolmap:link {
   text-decoration: none;
   color: #fff;
 }
 
-a:visited {
+#tschoolmap:visited {
   text-decoration: none;
   color: #fff;
 }
 
-a:hover {
+#tschoolmap:hover {
   text-decoration: none;
   color: #fff;
 }
 
-a:active {
+#tschoolmap:active {
   text-decoration: none;
   color: #fff;
 }
